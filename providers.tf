@@ -1,5 +1,7 @@
-provider "google" {
-  region  = "us-central1"
-  project = "380143141836"
+variable "project_id" {
+   description = "GCP Project ID for GKE deployment"
 }
 
+variable "region" {
+   description = "GCP Region"
+}
